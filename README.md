@@ -5,7 +5,7 @@ Wine dockerized as a Docker container prepared to run Win32 console application 
 - Container and Wine is set up as non-root.
 - First Wine execution inside container will trigger a wineboot (initialization of wine and its local user directories and files). It will take a short moment.
 - Wine version is 6.0. Wine is installed from WineHQ repository.
-- Wine Gecko and Wine Mono packages are pre-installed right now.
+- Wine Gecko and Wine Mono packages are not pre-installed right now.
 - Win32 console applications needs to be built statically.
 
 # Build and run
