@@ -11,10 +11,11 @@ Wine dockerized as a Docker container prepared to run Win32 console application 
 # Build and run
 
 ## Requirements
-- Docker runtime
+- bash
 - make
+- Docker runtime
 
-## Build docker container image
+## Build container image (docker)
 ```bash
 make build
 ```
